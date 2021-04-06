@@ -167,9 +167,9 @@ function sortCSSmq (a, b) {
   if (lengthA === maxValue && lengthB === maxValue) {
     return a.localeCompare(b)
   } else if (lengthA === maxValue) {
-    return 1
-  } else if (lengthB === maxValue) {
     return -1
+  } else if (lengthB === maxValue) {
+    return 1
   }
 
   if (lengthA > lengthB) {

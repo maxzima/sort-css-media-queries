@@ -192,13 +192,13 @@ it(`mixed #1. mobile-first`, () => {
   ]
 
   const expectedOrder = [
+    'screen and (orientation: landscape)',
+    'screen and (orientation: portrait)',
+    'tv',
     'screen and (min-width: 768px)',
     'screen and (min-width: 1280px)',
     'screen and (max-width: 1280px)',
     'screen and (max-width: 640px)',
-    'screen and (orientation: landscape)',
-    'screen and (orientation: portrait)',
-    'tv',
     'print',
     'print and (orientation: landscape)',
     'print and (orientation: portrait)'
